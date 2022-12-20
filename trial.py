@@ -2,7 +2,7 @@
 
 import datefinder
 
-with open('a', 'r') as file:
+with open('email.txt', 'r') as file:
     input_string = file.read().replace('\n', ' ')
 
 matches = datefinder.find_dates(input_string)
